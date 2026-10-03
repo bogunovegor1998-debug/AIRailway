@@ -1,0 +1,7 @@
+# Пассажиропотоки в CSV формате
+# Пример: data/passenger_flows/2024-01.csv
+# Формат колонок: date,hour,direction,count
+# date — дата (YYYY-MM-DD)
+# hour — час (0-23)
+# direction — 'in' (вход) или 'out' (выход)
+# count — количество пассажиров

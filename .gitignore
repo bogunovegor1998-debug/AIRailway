@@ -1,0 +1,53 @@
+# ===== Виртуальное окружение =====
+.venv/
+venv/
+
+# ===== Переменные окружения =====
+.env
+!.env.example
+
+# ===== Логи =====
+logs/
+*.log
+*.out
+*.err
+
+# ===== Данные (исходные выгрузки и служебная статистика — в репозиторий не попадают) =====
+data/old/
+версии/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.npy
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.session
+*.session-journal
+# Пустые папки-заготовки структуры данных оставляем в репозитории
+!data/*/.gitkeep
+
+# ===== Python кеш =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== PostgreSQL данные если локально =====
+pgdata/
